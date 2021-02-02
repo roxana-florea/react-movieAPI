@@ -1,0 +1,78 @@
+.App {
+  display: flex;
+  justify-content: space-around;
+}
+
+.movie-container {
+  border: 1px solid black;
+  width: 500px;
+  display: flex;
+  padding: 10px;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+
+img {
+  width: 100px;
+}
+
+.movie-details {
+  padding: 5px;
+}
+
+button {
+  float: right;
+}
+
+.fav-board {
+  float: right;
+  border: 1px solid black;
+  width: 500px;
+  height: 500px;
+  margin-top: 50px;
+  padding: 10px;
+  
+}
+
+.hide-fav {
+  display: none
+}
+
+.fav-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fav-div button {
+  height: 30px;
+  margin-top: 10px;
+}
+
+.random-container {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  width: 500px;
+  padding: 10px;
+  background-color:aliceblue;
+  box-shadow: 2px 2px 2px 2px grey;
+}
+
+.fav-btn {
+  width: 100px;
+  height: 30px;
+}
+
+
+.star-active {
+  color: red;
+  font-weight: bold;
+}
+
+.star-inactive {
+color: black;
+}
+
